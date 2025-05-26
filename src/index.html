@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relife Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 min-h-screen "> 
+    <!-- Hero Section -->
+    <div class="parent flex flex-col justify-center items-center px-4 py-10 relative">
+        <h1 class="text-6xl text-slate-200 text-center font-extrabold animate-fade-in-down">RELIFE STUDIO</h1>
+        <p class="text-3xl text-slate-300 font-bold animate-fade-in-up">Design Your Life</p>
+        <style>
+        @keyframes fade-in-down {
+            0% { opacity: 0; transform: translateY(-40px);}
+            100% { opacity: 1; transform: translateY(0);}
+        }
+        @keyframes fade-in-up {
+            0% { opacity: 0; transform: translateY(40px);}
+            100% { opacity: 1; transform: translateY(0);}
+        }
+        .animate-fade-in-down {
+            animation: fade-in-down 1s cubic-bezier(.4,0,.2,1) both;
+        }
+        .animate-fade-in-up {
+            animation: fade-in-up 1s .3s cubic-bezier(.4,0,.2,1) both;
+        }
+        </style>
+        <p class="mt-6 text-lg sm:text-xl text-slate-200 max-w-xl text-center capitalize font-medium">
+            Transforming spaces with creativity and care. Let’s design your dream together!
+        </p>
+        <button class="absolute bottom-0 text-slate-300 text-3xl animate-bounce hover:text-slate-400" id="tobottom" >  <i class="fa-solid fa-arrow-down"></i> </button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class=" bg-black  pt-8 pb-4 px-2 animated-bg">
+
+        <div class="flex flex-col md:flex-row md:justify-between w-full max-w-6xl mx-auto gap-8">
+            <!-- Contact Info -->
+            <div class="w-full md:w-1/2 flex flex-col gap-6">
+                <h2 class="font-bold text-2xl md:text-3xl text-white mb-2 tracking-wide">Contact Us</h2>
+                <ul class="space-y-3">
+                    <li class="text-slate-200 text-lg flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-green-400"></i>
+                        <span class="font-semibold">Phone:</span>
+                        <a href="tel:01006244358"
+                            class="underline underline-offset-4 hover:text-green-400 transition-colors duration-200">01006244358</a>
+                    </li>
+                    <li class="text-slate-200 text-lg flex items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-pink-400"></i>
+                        <span class="font-semibold">Address:</span>
+                        <span class="underline underline-offset-4">Medical Center 3, Floor 3, Room 302</span>
+                    </li>
+                </ul>
+                <div class="flex gap-3 mt-2">
+                    <a href="https://www.facebook.com/share/1CAhjGwz7J/?mibextid=LQQJ4d" target="_blank"
+                        class="w-10 h-10 flex justify-center items-center rounded-full bg-blue-600 hover:bg-blue-700 text-white text-2xl shadow-lg transition">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/relife_designs?igsh=MWdlNDNyaWV4ZHd6eA==" target="_blank"
+                        class="w-10 h-10 flex justify-center items-center rounded-full bg-gradient-to-tr from-pink-500 to-yellow-400 hover:from-pink-600 hover:to-yellow-500 text-white text-2xl shadow-lg transition">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/201006244358" target="_blank"
+                        class="w-10 h-10 flex justify-center items-center rounded-full bg-green-500 hover:bg-green-600 text-white text-2xl shadow-lg transition">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@relifestudiodesigns?_t=ZS-8wgFwznBoo5&_r=1" target="_blank"
+                        class="w-10 h-10 flex justify-center items-center rounded-full bg-black hover:bg-gray-800 text-white text-2xl shadow-lg transition">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Map -->
+            <div class="w-full md:w-1/2 flex flex-col gap-4">
+                <h2 class="font-bold text-2xl md:text-3xl text-white uppercase mb-2 tracking-wide">Get Location</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6906.44399283637!2d31.365869374617088!3d30.059170517874573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583dc25f5e8555%3A0xbd4eaa7f7e796599!2sMedical%20Center%203!5e0!3m2!1sen!2seg!4v1748280178220!5m2!1sen!2seg"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    class="w-full h-56 md:h-64 rounded-xl shadow-lg"></iframe>
+            </div>
+        </div>
+        <div class="text-center text-slate-300 text-sm mt-8">
+            © <span id="year">2025</span> All Rights Reserved — <strong>Relife Studio Team</strong>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
