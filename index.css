@@ -21,7 +21,7 @@
 }
 .parent {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('images/IMG-20250427-WA0009.jpg');
+        url('src/images/IMG-20250427-WA0009.jpg');
     width: 100%;
     height: 100vh !important;
     background-position: center center;
@@ -33,7 +33,7 @@
 @media screen and (max-width: 768px) {
     .parent {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-            url('images/IMG-20250427-WA0014.jpg');
+            url('src/images/IMG-20250427-WA0014.jpg');
         height: 100vh !important;
         background-position: center center;
         background-repeat: no-repeat;
