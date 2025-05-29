@@ -19,6 +19,7 @@
         background-position: 0% 50%;
     }
 }
+
 .parent {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url('src/images/IMG-20250427-WA0009.jpg');
@@ -39,5 +40,21 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
+}
+
+#logoAnmie {
+    animation: moveImage 1s ease-in-out forwards;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateX(-50%) scale(0.95);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
 }
