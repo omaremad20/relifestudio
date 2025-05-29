@@ -42,19 +42,3 @@
     }
 
 }
-
-#logoAnmie {
-    animation: moveImage 1s ease-in-out forwards;
-}
-
-@keyframes moveImage {
-    0% {
-        transform: translateX(-50%) scale(0.95);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0) scale(1);
-        opacity: 1;
-    }
-}
